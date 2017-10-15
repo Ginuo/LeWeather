@@ -10,19 +10,13 @@ import android.widget.Button;
 
 
 /**
- * Created by LCP on 2017/2/4.
- * @ Email:chuge94@163.com
- * GitHub:https://github.com/linchupeng/YourWeather
- */
-/**
  *Navigation功能之设置界面及功能的实现
  */
 public class AboutActivity extends BaseActivity {
 
     private Button btn_code;
     private Button btn_shared;
-    private Button btn_friends;
-    private Button btn_update;
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

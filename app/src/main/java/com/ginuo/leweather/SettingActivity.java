@@ -18,12 +18,6 @@ import android.widget.Toast;
 
 import static com.ginuo.leweather.R.xml.settingui;
 
-/**
- * Created by LCP on 2017/2/13.
- * @ Email:chuge94@163.com
- * GitHub:https://github.com/linchupeng/YourWeather
- */
-
 public class SettingActivity extends PreferenceActivity {
 
     private Toolbar mToolbar;

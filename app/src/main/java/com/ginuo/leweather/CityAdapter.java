@@ -10,11 +10,7 @@ import android.widget.TextView;
 
 import java.util.List;
 
-/**
- * Created by LCP on 2017/1/20.
- * @ Email:chuge94@163.com
- * GitHub:https://github.com/linchupeng/YourWeather
- */
+
 
 public class CityAdapter extends RecyclerView.Adapter<CityAdapter.ViewHolder> {
     private Context mContext;

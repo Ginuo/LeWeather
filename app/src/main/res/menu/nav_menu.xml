@@ -4,7 +4,7 @@
     <item
         android:id="@+id/add_city"
         android:icon="@mipmap/add_city"
-        android:title="添加城市"></item>
+        android:title="切换城市"></item>
     <!--<item-->
         <!--android:id="@+id/multi_cities"-->
         <!--android:icon="@mipmap/multi_city"-->
