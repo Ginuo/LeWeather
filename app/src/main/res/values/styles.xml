@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--启动页的style-->
+    <style name="LauncherTheme" parent="Theme.AppCompat">
+        <!--取消标题栏-->
+        <item name="android:windowNoTitle">true</item>
+        <!--状态栏透明化-->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <!--启动页的背景图-->
+        <item name="android:windowBackground">@mipmap/splashscreen</item>
+
+    </style>
+    <style name="FullScreen" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+    <style name="ToolBarTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorControlNormal">@color/toolbarColor</item>
+        <item name="android:homeAsUpIndicator">@color/toolbarColor</item>
+    </style>
+</resources>

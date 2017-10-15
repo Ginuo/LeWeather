@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LeWeather</string>
+    <string name="drawer_open">Open drawer</string>
+    <string name="drawer_close">Close drawer</string>
+    <string name="thanks">使用和风天气、高德地图API</string>
+    <string name="settingContent">LeWeather是一款简单而又不失简约的天气应用，提供了基本的天气查询功能，遵循Google Material设计规范，使用了高德地图的定位服务和和风天气的数据</string>
+    <string name="introduction">简介</string>
+    <string name="bullshit">联系作者</string>
+    <string name="friends">交个朋友</string>
+    <string name="shared">分享天气</string>
+    <string name="viewCode">查看源码</string>
+</resources>

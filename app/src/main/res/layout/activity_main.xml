@@ -1,0 +1,46 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+    <LinearLayout
+        android:id="@+id/linear_main"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/toolbar"></include>
+
+        <!--CoordinatorLayout：协调(Coordinate)其他组件, 实现联动-->
+        <android.support.design.widget.CoordinatorLayout
+            android:id="@+id/myCoor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </android.support.design.widget.CoordinatorLayout>
+    </LinearLayout>
+
+    <!--抽屉菜单（侧边栏菜单）
+    app:menu属性表示侧边栏菜单，是侧边栏菜单的主体
+    app:headerLayout属性表示侧边栏的顶部的布局（常常用图片填充）
+    android:layout_gravity="start"表示从左侧滑出（end表示从右侧）-->
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/nav_menu"
+        app:headerLayout="@layout/nav_header"
+        />
+
+
+
+</android.support.v4.widget.DrawerLayout>
+
+
+
